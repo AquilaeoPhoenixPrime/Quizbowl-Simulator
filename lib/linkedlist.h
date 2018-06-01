@@ -13,7 +13,9 @@ list_t list_new();
 
 unsigned int list_len(list_t L);
 
-void list_insert(list_t L, unsigned int i);
+void list_append(list_t L, elem e);
+
+void list_set(list_t L, elem e);
 
 elem list_get(list_t L, unsigned int i);
 
